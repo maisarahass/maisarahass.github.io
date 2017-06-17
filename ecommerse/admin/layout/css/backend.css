@@ -1,0 +1,223 @@
+/*Start Main Rolze*/
+
+body{
+    background-color: #f4f4f4;
+    font-size: 16px;
+}
+
+.asterisk
+{
+   position: absolute;
+right: 24px;
+font-size: 35px;
+top: 6px;
+color: #d41616;
+}
+
+
+/*End Main Rolze*/
+
+
+/*Start Login Form*/
+
+.login{
+    width: 400px;
+    margin: 100px auto;
+}
+
+.login input{
+    margin-bottom: 10px;
+}
+
+.login .form-control{
+    background-color: #eaeaea;
+}
+
+.login .btn{
+    background-color: #008dde;
+}
+.login h4{
+    color: #888;
+}
+
+
+/*End Login Form*/
+
+/*Start Bootstrap Edits*/
+.navbar 
+{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand
+{
+    font-size: 1em; /* يعني خود حجم الخط من الحجم لانا مدي فوق في بدي (body) الصفحة */
+}
+
+.nav>li>a,
+.navbar-brand{
+    padding: 15px 12px;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:focus, 
+.navbar-inverse .navbar-nav > .open > a:hover,
+.dropdown-menu
+{
+    color: #fff;
+background-color: #3498db;
+}
+
+
+.dropdown-menu
+{
+    min-width: 180px;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+}
+.dropdown-menu >li >a
+{
+    color: #FFF;
+    padding: 10px 15px;
+}
+.dropdown-menu >li > a:hover
+{
+    background-color: #8e44ad;
+}
+
+.form-control 
+{
+    position: relative;
+}
+/*End Bootstrap Edits*/
+
+/*start Dashboord page*/
+
+.home-stats .stat
+{
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-size: 15px;
+    color: #FFF;
+    border-radius: 10px;
+}
+
+.home-stats .stat a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.home-stats .stat span
+{
+    display: block;
+    font-size: 50px;
+    
+}
+
+.home-stats .st-memb
+{
+    background-color: #3498db; /*  الألوان هاد جبتها من موقع (www.flatuicolors.com) */
+}
+.home-stats .st-pand
+{
+    background-color:#c0392b ;
+}
+.home-stats .st-item
+{
+    background-color:#d35400 ;
+}
+.home-stats .st-comment
+{
+    background-color: #8e44ad;
+}
+
+
+
+.latest
+{
+   margin-top: 30px; 
+}
+
+
+/*end Dashboord page*/
+
+
+/*Start Members Page*/
+
+h1{
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+}
+
+.show-pass 
+{
+    position: absolute;
+    top: 6px;
+    right: 44px;
+}
+
+.maneg-tab tr:first-child td {
+    background-color: #333;
+    color: #fff;
+}
+.maneg-tab
+{
+    -webkit-box-shadow: 0 3px 10px #ccc;
+    -moz-box-shadow: 0 3px 10px #ccc;
+    -o-box-shadow: 0 3px 10px #ccc;
+    box-shadow: 0 3px 10px #ccc;
+}
+
+.maneg-tab td
+{
+    background-color: #fff;
+      vertical-align: middle !important; /*هاد عشان يوسط الكلام في الخلية وعملنا امبورتنت عشان البوتستراب معطيا قيمة توب ومش بتعرف على الفيرتكال الا لمن تقلو هاد امبورتنت*/
+}
+
+.maneg-tab .btn
+{
+    padding: 3px 10px;
+    
+   
+}
+
+.maneg-tab .activet
+{
+    margin-left: 5px;
+}
+
+.latest-users 
+{
+    margin-bottom: 0;
+}
+.latest-users li
+{
+    padding: 3px 0;
+    overflow: hidden;
+}
+.latest-users li:nth-child(odd)
+{
+    background-color: #EEE;
+}
+.latest-users .btn-success
+{
+   float: right;
+    padding: 3px 10px;
+}
+.latest-users .activet
+{
+    margin-right: 5px;
+    padding: 3px;
+
+}
+
+
+
+
+/*End Members Page*/
